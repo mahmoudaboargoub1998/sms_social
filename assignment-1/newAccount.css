@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(196, 196, 227);
+    font-family: 'Roboto',sans-serif;
+}
+
+
+.Sing_Up{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(196, 196, 227);
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+}
+input[type = "button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border:  none;
+    background-color: rgb(152, 100, 211);
+    color: aliceblue;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.para2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para2 a{
+    color: #d266e2;
+}

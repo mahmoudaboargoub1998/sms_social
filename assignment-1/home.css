@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    background-color: rgb(241, 241, 241);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(196, 196, 227);
+    padding: 5px 1%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    width: 60px;
+    margin-left: 45px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+
+}
+.nav-left ul li{
+list-style: none;
+display: inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 10px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.search-box{
+    background: whitesmoke;
+    width: 350px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.search-box input{
+    background: transparent;
+    width: 100%;
+    padding: 10px;  
+    outline: none;
+    border: 0;
+
+
+}
+.nav-user-icone img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-user-icone{
+    margin-left: 10px;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.containor{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+.left-sidebar{
+    background: rgb(232, 232, 232);
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+    height: 100vh;
+}
+.right-sidebar{
+    background: rgb(232, 232, 232);
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+    /* height: 100vh; */
+}
+.main-content{
+    flex-basis: 47%;
+
+}
+.emp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    /* color: ; */
+    width: fit-content;
+}
+.emp-links a img{
+    width: 25px;
+    margin-right: 15px;
+
+}
+.emp-links a  :last-child{
+color: blueviolet;
+margin-right: 10px;
+}
+.emp-links{
+    border-bottom: 1px solid #ccc;
+}
+button{
+    border: 1px solid gray;
+    background-color: #283857;
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #344a72;
+}
+.bt a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: black;
+    width: fit-content;
+}
+.bt a button{
+    width: 200px;
+    height: 200px;
+    margin-right:20px;
+    background-color:rgb(152, 100, 211);
+    cursor: pointer;
+    margin-right: -8px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(152, 100, 211);
+}
+button{
+    border: 1px solid gray;
+    background-color: rgb(152, 100, 211);
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+button.button{
+    cursor: pointer;
+    margin-right: -8px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(152, 100, 211);
+
+}
+button.button:hover{
+    background-color: rgb(152, 100, 211);
+
+}
